@@ -1,0 +1,5 @@
+package com.esteban.pacientes.controllers;
+
+public class PacienteController {
+
+}

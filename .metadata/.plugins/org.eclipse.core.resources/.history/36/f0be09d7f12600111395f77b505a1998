@@ -1,0 +1,5 @@
+package com.esteban.pacientes.repositories;
+
+public interface PacienteRepository {
+
+}
