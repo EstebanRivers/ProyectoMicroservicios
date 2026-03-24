@@ -47,15 +47,14 @@ public class Medico {
 	private Short edad;
 	
 	@Column(name = "EMAIL", nullable = false, length = 100)
-	private String telefono;
+	private String email;
 	
 	@Column(name = "TELEFONO", nullable = false, length = 10)
-	private String email;
+	private String telefono;
 	
 	@Column(name = "CEDULA_PROFESIONAL", nullable = false, length = 12)
 	private String cedulaProfecional;
 
-	
 	@Enumerated(EnumType.STRING)
 	@Column(name = "ESPECIALIDAD", nullable = false)
 	private EspecialidadMedico especialidad;
