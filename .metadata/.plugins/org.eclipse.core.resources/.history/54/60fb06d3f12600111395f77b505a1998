@@ -1,5 +1,0 @@
-package com.esteban.medicos.repositories;
-
-public interface MedicoRepository {
-
-}
